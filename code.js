@@ -1,7 +1,7 @@
 
 $( document ).ready(function()
 {
-  $("#content").load("models/news.html");
+  $("#content").load("other/news.html");
 
 });
 
