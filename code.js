@@ -5,9 +5,12 @@ $( document ).ready(function()
 
 });
 
-function Gr()
+
+function News()
 {
-
+  $("#content").load("models/news.html");
+}
+function Categoris()
+{
 $("#content").load("models/categoris.html");
-
 }
