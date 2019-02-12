@@ -8,7 +8,7 @@ $( document ).ready(function()
 
 function News()
 {
-  $("#content").load("models/news.html");
+  $("#content").load("other/news.html");
 }
 function Categoris()
 {
