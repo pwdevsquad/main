@@ -20,16 +20,20 @@
 
 
 .news_block
-{display: flex;flex-direction: row; min-height: 300px; margin-top: 50px;text-align: center; justify-content:
-width: 100%;}
+{display: flex;flex-direction: column; min-height: 300px; margin:50px 50px 0 10px; text-align: center;  align-items: center;box-shadow: 0 0 10px #FF8356;
+width: 99%; position: relative;}
 
 .news_block_Header
 {margin-top:10px;font-size: 25px;font-family: "Arial Black", Gadget, sans-serif;color: #130402; font-weight: 700;text-decoration: none solid rgb(68, 68, 68);font-style: normal;font-variant: normal;text-transform: none;text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 0px 0px 20px rgba(23,18,18,0.03);color: #1E1717;}
 .news_block_text
 {color: #F1C26D;text-shadow:0 0 5px #FFF,0 0 55px #F19931,0 0 75px #F19931,-1px -1px 2px #000,1px -1px 2px #000,-1px 1px 2px #000,1px 1px 2px #000;}
 
+.news_block_subtext
+{font-size: 14px; bottom:0; color: #F1C26D;text-shadow:0 0 5px #FFF,0 0 55px #F19931,0 0 75px #F19931,-1px -1px 2px #000,1px -1px 2px #000,-1px 1px 2px #000,1px 1px 2px #000;}
+
+
 .news_row
-{display: flex; flex-direction: row;  min-height: 300px; margin-top:50px; text-align: center; width: 100%;}
+{display: flex; flex-direction: row;   margin-top:50px;justify-content:space-between; width: 100%;}
 .news_coll
 {display: flex;flex-direction: column;  text-align: center;}
 
