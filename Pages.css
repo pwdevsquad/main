@@ -1,5 +1,8 @@
 
-.categori_item{display: flex;height: 500px;width: 400px;float: left;margin-left:20px;}
+.categori_item{display: flex;height: 500px;width: 400px;float: left;margin-left:20px;cursor:pointer;}
+
+
+
 .item_panel{position:relative;}
 .item_img{position:absolute;}
 

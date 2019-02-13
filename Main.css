@@ -73,6 +73,7 @@ div:hover.navbar
   background-color: white;
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 footer
