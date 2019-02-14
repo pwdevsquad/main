@@ -1,7 +1,7 @@
 
 $( document ).ready(function()
 {
-  $("#main").load("header.html");
+  $("#content").load("other/news.html");
 });
 
 function News()// Загрузка страницы с новостями.

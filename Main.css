@@ -62,13 +62,13 @@ header
   text-decoration: none;
   background-color: rgba(0, 0, 0, 1);
 }
- div.navbar
+ a.navbar
  {
    background-color: rgba(0, 0, 0, 1);
    padding: 10px 20px;
    height: 25px;
  }
-div:hover.navbar
+a:hover.navbar
 {
   background-color: white;
   color: black;
